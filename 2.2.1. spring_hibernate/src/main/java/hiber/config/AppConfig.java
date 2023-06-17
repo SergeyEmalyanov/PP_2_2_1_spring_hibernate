@@ -19,7 +19,7 @@ import java.util.Properties;
 
 
 @Configuration
-@PropertySource("classpath:db.properties")
+@PropertySource(value = "classpath:db.properties")
 @EnableTransactionManagement
 @ComponentScan(value = "hiber")
 public class AppConfig {
